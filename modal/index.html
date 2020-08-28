@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Тестовое по js</title>
-    <!--<link rel="stylesheet" type="text/css" href="public/style.css" />-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <header>
-       
-    </header>
+  
+<button onclick="callModal('modal_1')">Модальное 1</button>
+<button onclick="callModal('modal_2')">Модальное 2</button>
+
+
+<div style="display: none">
+    <div class="modal" id="modal_1">
+        <div class="title">Заголовок</div>
+        <div class="content">
+            Простой контент
+        </div>
+    </div>
+
+    <div class="modal" id="modal_2">
+        <div class="title">Пример с контентом из тегов</div>
+        <div class="content">
+            <h4>Список</h4>
+            <ol>
+                <li>Пункт 2</li>
+                <li>Пункт 2</li>
+            </ol>
+        </div>
+    </div>
+</div>
     
-    
-    
-    <footer>
-        
-    </footer>
+ 
 </body>
 </html>
 

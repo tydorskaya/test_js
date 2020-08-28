@@ -17,7 +17,7 @@ function loaded() {
       
             var selectedOption = allOption[selected].text;
             
-            let resultSelect = document.createElement('div');
+            var resultSelect = document.createElement('div');
             resultSelect.className = "select_styling";
             var idSelect = select.id ? select.id : '';
             resultSelect.id = idSelect;
